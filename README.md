@@ -4,7 +4,7 @@
 <div align="center">
   
 ![Profile Views](https://komarev.com/ghpvc/?username=dinujayamendis&label=Profile%20views&color=0e75b6&style=flat)
-[![Website](https://img.shields.io/badge/🌐-Personal%20Website-blue)](https://hicelylon.tiiny.site)
+[![Website](https://img.shields.io/badge/🌐-Personal%20Website-blue)](https://dinujayamendisportfolio.tiiny.site)
   
 </div>
 
