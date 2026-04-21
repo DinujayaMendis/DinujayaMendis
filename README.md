@@ -2,53 +2,10 @@
 Advanced Modern README with a Working Snake Animation (SVG SMIL)
 No external actions needed — the animation runs directly in your browser.
 -->
-
 <div align="center">
-  <svg width="600" height="70" viewBox="0 0 600 70" xmlns="http://www.w3.org/2000/svg">
-    <style>
-      @keyframes typing {
-        0% { width: 0; }
-        40% { width: 14ch; }
-        60% { width: 14ch; }
-        80% { width: 0; }
-        100% { width: 0; }
-      }
-      @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-      .line1 { animation: typing 8s steps(14) infinite; white-space: nowrap; overflow: hidden; }
-      .line2 { animation: typing 8s steps(20) infinite 2s; white-space: nowrap; overflow: hidden; }
-      .line3 { animation: typing 8s steps(13) infinite 4s; white-space: nowrap; overflow: hidden; }
-      .line4 { animation: typing 8s steps(20) infinite 6s; white-space: nowrap; overflow: hidden; }
-      .cursor {
-        display: inline-block;
-        width: 2px;
-        height: 1.2em;
-        background-color: #00F7FF;
-        animation: blink 1s step-end infinite;
-        vertical-align: middle;
-        margin-left: 2px;
-      }
-      .text {
-        font-family: 'Fira Code', monospace;
-        font-size: 24px;
-        font-weight: 600;
-        fill: #00F7FF;
-      }
-    </style>
-    <foreignObject width="600" height="70">
-      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Fira Code', monospace; font-size: 24px; font-weight: 600; color: #00F7FF; background: transparent; text-align: center; line-height: 1.4;">
-        <div style="height: 70px; display: flex; flex-direction: column; justify-content: center;">
-          <div class="line1">👋 Hello, I'm Dinujaya Mendis<span class="cursor"></span></div>
-          <div class="line2">💻 Passionate Frontend Developer<span class="cursor"></span></div>
-          <div class="line3">🚀 From Sri Lanka<span class="cursor"></span></div>
-          <div class="line4">✨ Welcome to my GitHub!<span class="cursor"></span></div>
-        </div>
-      </div>
-    </foreignObject>
-  </svg>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00F7FF&center=true&vCenter=true&width=600&lines=👋+Hello%2C+I'm+Dinujaya+Mendis;💻+Passionate+Frontend+Developer;🚀+From+Sri+Lanka;✨+Welcome+to+my+GitHub!"  />
 </div>
+
 
 <br/>
 
