@@ -1,6 +1,6 @@
 <!---
-Modern GitHub README with working snake animation and accessible animated bar chart
-All animations work without JavaScript or external dependencies.
+Advanced Modern README with a Working Snake Animation (SVG SMIL)
+No external actions needed — the animation runs directly in your browser.
 -->
 
 <div align="center">
@@ -104,101 +104,82 @@ All animations work without JavaScript or external dependencies.
 
 <br/>
 
-<!-- USER-FRIENDLY ANIMATED WEEKLY CODING ACTIVITY (SVG BAR CHART) -->
+<!-- Custom Animated Bar Chart: Weekly Coding Activity -->
 <div align="center">
   <h3>📈 Weekly Coding Activity (Animated)</h3>
+  <div style="background: #0D1117; border-radius: 1.5rem; padding: 1.5rem; width: 90%; max-width: 800px; margin: auto; box-shadow: 0 0 20px rgba(0,247,255,0.1);">
+    
+  <style>
+    @keyframes growBar {
+      0% { width: 0%; opacity: 0; }
+      100% { width: var(--target); opacity: 1; }
+    }
+    .bar-container {
+      background: #1F2A3E;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 0.6rem 0;
+      height: 32px;
+      width: 100%;
+    }
+    .bar-fill {
+      background: linear-gradient(90deg, #00F7FF, #FF00E4);
+      height: 100%;
+      width: 0%;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: 0.8rem;
+      animation: growBar 1.2s ease-out forwards;
+    }
+    .day-label {
+      font-weight: 600;
+      color: #c9d1d9;
+      width: 70px;
+      display: inline-block;
+    }
+    .chart-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+  </style>
   
-  <svg width="100%" max-width="800" height="280" viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg" style="background: #0D1117; border-radius: 20px; padding: 10px; font-family: Arial, sans-serif;">
-    
-    <!-- Background -->
-    <rect width="700" height="280" fill="#0D1117" rx="15" />
-    
-    <!-- Title -->
-    <text x="350" y="30" fill="#00F7FF" font-size="16" text-anchor="middle" font-weight="bold">🔥 Estimated Focus Hours (Last 7 days)</text>
-    
-    <!-- Bar definitions: each bar has a label, a rectangle, and a percentage text -->
-    <!-- Monday: 85% -->
-    <text x="60" y="70" fill="#c9d1d9" font-size="13" text-anchor="end">Mon</text>
-    <rect x="70" y="55" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="170" dur="1s" fill="freeze" />
-    </rect>
-    <text x="245" y="70" fill="#00F7FF" font-size="11" opacity="0">
-      85%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1s" fill="freeze" />
-    </text>
-    
-    <!-- Tuesday: 72% -->
-    <text x="60" y="100" fill="#c9d1d9" font-size="13" text-anchor="end">Tue</text>
-    <rect x="70" y="85" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="144" dur="1s" begin="0.1s" fill="freeze" />
-    </rect>
-    <text x="220" y="100" fill="#00F7FF" font-size="11" opacity="0">
-      72%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.1s" fill="freeze" />
-    </text>
-    
-    <!-- Wednesday: 90% -->
-    <text x="60" y="130" fill="#c9d1d9" font-size="13" text-anchor="end">Wed</text>
-    <rect x="70" y="115" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="180" dur="1s" begin="0.2s" fill="freeze" />
-    </rect>
-    <text x="255" y="130" fill="#00F7FF" font-size="11" opacity="0">
-      90%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.2s" fill="freeze" />
-    </text>
-    
-    <!-- Thursday: 68% -->
-    <text x="60" y="160" fill="#c9d1d9" font-size="13" text-anchor="end">Thu</text>
-    <rect x="70" y="145" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="136" dur="1s" begin="0.3s" fill="freeze" />
-    </rect>
-    <text x="212" y="160" fill="#00F7FF" font-size="11" opacity="0">
-      68%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.3s" fill="freeze" />
-    </text>
-    
-    <!-- Friday: 95% -->
-    <text x="60" y="190" fill="#c9d1d9" font-size="13" text-anchor="end">Fri</text>
-    <rect x="70" y="175" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="190" dur="1s" begin="0.4s" fill="freeze" />
-    </rect>
-    <text x="265" y="190" fill="#00F7FF" font-size="11" opacity="0">
-      95%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.4s" fill="freeze" />
-    </text>
-    
-    <!-- Saturday: 60% -->
-    <text x="60" y="220" fill="#c9d1d9" font-size="13" text-anchor="end">Sat</text>
-    <rect x="70" y="205" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="120" dur="1s" begin="0.5s" fill="freeze" />
-    </rect>
-    <text x="196" y="220" fill="#00F7FF" font-size="11" opacity="0">
-      60%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.5s" fill="freeze" />
-    </text>
-    
-    <!-- Sunday: 45% -->
-    <text x="60" y="250" fill="#c9d1d9" font-size="13" text-anchor="end">Sun</text>
-    <rect x="70" y="235" width="0" height="20" fill="url(#grad)" rx="4">
-      <animate attributeName="width" from="0" to="90" dur="1s" begin="0.6s" fill="freeze" />
-    </rect>
-    <text x="166" y="250" fill="#00F7FF" font-size="11" opacity="0">
-      45%
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.6s" fill="freeze" />
-    </text>
-    
-    <!-- Gradient definition -->
-    <defs>
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00F7FF" />
-        <stop offset="100%" stop-color="#FF00E4" />
-      </linearGradient>
-    </defs>
-    
-    <!-- Baseline text -->
-    <text x="350" y="270" fill="#586069" font-size="11" text-anchor="middle">Hours of focused coding (animated bars)</text>
-  </svg>
-  <p style="font-size: 0.75rem; color: #8b949e; margin-top: 0.5rem;">📊 Based on recent contribution patterns | Bars grow on page load</p>
+  <div class="chart-row">
+    <span class="day-label">Monday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 85%; animation-delay: 0s;">85%</div></div>
+  </div>
+  <div class="chart-row">
+    <span class="day-label">Tuesday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 72%; animation-delay: 0.1s;">72%</div></div>
+  </div>
+  <div class="chart-row">
+    <span class="day-label">Wednesday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 90%; animation-delay: 0.2s;">90%</div></div>
+  </div>
+  <div class="chart-row">
+    <span class="day-label">Thursday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 68%; animation-delay: 0.3s;">68%</div></div>
+  </div>
+  <div class="chart-row">
+    <span class="day-label">Friday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 95%; animation-delay: 0.4s;">95%</div></div>
+  </div>
+  <div class="chart-row">
+    <span class="day-label">Saturday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 60%; animation-delay: 0.5s;">60%</div></div>
+  </div>
+  <div class="chart-row">
+    <span class="day-label">Sunday</span>
+    <div class="bar-container"><div class="bar-fill" style="--target: 45%; animation-delay: 0.6s;">45%</div></div>
+  </div>
+  <p style="font-size: 0.75rem; color: #8b949e; margin-top: 1rem;">🔥 Estimated focus hours based on recent activity</p>
+  </div>
 </div>
 
 <br/>
@@ -215,7 +196,8 @@ All animations work without JavaScript or external dependencies.
 
 <div align="center">
   
-<!-- WORKING SVG SNAKE ANIMATION (SMIL) -->
+<!-- ========== WORKING SVG SNAKE ANIMATION ========== -->
+<!-- No external dependencies – pure SVG + SMIL animation. -->
 <svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="background: #0D1117; border-radius: 20px; font-family: monospace;">
   
   <!-- Background grid (contributions) -->
@@ -331,13 +313,7 @@ All animations work without JavaScript or external dependencies.
   </g>
   
   <!-- Labels -->
-  <text x="400" y="175" fill="#8b949e" font-size="14" text-anchor="middle" font-family="Arial, sans-serif">
-    🐍 The snake slithers across your contributions, eating them one by one!
-  </text>
-  <text x="400" y="195" fill="#586069" font-size="12" text-anchor="middle">
-    Animated SVG | SMIL | No external dependencies
-  </text>
-</svg>
+  
 
 </div>
 
@@ -356,7 +332,7 @@ All animations work without JavaScript or external dependencies.
 
 <div align="center">
   
-### ✨ Thank you for stopping by! ✨
+### ✨ Thank you for stopping bye! ✨
 
 ![Footer Animation](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&fontColor=00F7FF)
 
