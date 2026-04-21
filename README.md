@@ -1,6 +1,6 @@
 <!---
-Advanced Modern README with CSS Animations, Graphs & Interactive Elements
-Compatible with GitHub's markdown styling (supports embedded HTML/CSS)
+Advanced Modern README with a Working Snake Animation (SVG SMIL)
+No external actions needed — the animation runs directly in your browser.
 -->
 
 <div align="center">
@@ -9,7 +9,6 @@ Compatible with GitHub's markdown styling (supports embedded HTML/CSS)
 
 <br/>
 
-<!-- Animated Gradient Border Card -->
 <div align="center">
   <div style="background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(10px); border-radius: 2rem; padding: 1rem 2rem; border: 1px solid rgba(0,247,255,0.3); box-shadow: 0 0 20px rgba(0,247,255,0.2); display: inline-block;">
     <h3 style="margin: 0; background: linear-gradient(90deg, #00F7FF, #FF00E4); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 600;">✨ Interactive Developer | UI Enthusiast | Open Source ✨</h3>
@@ -193,13 +192,137 @@ Compatible with GitHub's markdown styling (supports embedded HTML/CSS)
 
 ---
 
-### 🌟 Fun Animation: Snake eating Contributions
+### 🐍 Fun Animation: Snake Eating Contributions
 
 <div align="center">
   
-![Snake animation](https://raw.githubusercontent.com/dinujayamendis/dinujayamendis/output/github-contribution-grid-snake-dark.svg)
+<!-- ========== WORKING SVG SNAKE ANIMATION ========== -->
+<!-- No external dependencies – pure SVG + SMIL animation. -->
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg" style="background: #0D1117; border-radius: 20px; font-family: monospace;">
   
-  <p><i>If snake doesn't appear, <a href="https://github.com/Platane/snk">set up GitHub Action</a> to generate it automatically 🐍</i></p>
+  <!-- Background grid (contributions) -->
+  <g id="contributions">
+    <!-- Week 1 -->
+    <rect x="40" y="30" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.4;0.6;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="60" y="30" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.65;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="80" y="50" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.7;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="100" y="70" width="14" height="14" fill="#0e4429" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.55;0.75;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="120" y="90" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.6;0.8;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Week 2 -->
+    <rect x="160" y="40" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.65;0.85;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="180" y="60" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.7;0.9;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="200" y="80" width="14" height="14" fill="#0e4429" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.75;0.95;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="220" y="100" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.8;1;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Week 3 -->
+    <rect x="280" y="25" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.85;1;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="300" y="45" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.9;1;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="320" y="65" width="14" height="14" fill="#0e4429" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.95;1;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="340" y="85" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;1;1;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Week 4 -->
+    <rect x="400" y="35" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.3;0.5;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="420" y="55" width="14" height="14" fill="#0e4429" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.35;0.55;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="440" y="75" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.4;0.6;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Week 5 -->
+    <rect x="500" y="20" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.65;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="520" y="40" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.7;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="540" y="60" width="14" height="14" fill="#0e4429" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.55;0.75;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="560" y="80" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.6;0.8;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Week 6 -->
+    <rect x="620" y="30" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.65;0.85;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="640" y="50" width="14" height="14" fill="#2ea043" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.7;0.9;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="660" y="70" width="14" height="14" fill="#0e4429" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.75;0.95;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+    <rect x="680" y="90" width="14" height="14" fill="#39d353" rx="2">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.8;1;1" dur="8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+  
+  <!-- Snake body (moving path) -->
+  <g>
+    <!-- Head -->
+    <circle r="8" fill="#00F7FF">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto"
+        path="M45,37 L68,37 L68,57 L88,57 L108,77 L128,97 L168,47 L188,67 L208,87 L228,107 L288,32 L308,52 L328,72 L348,92 L408,42 L428,62 L448,82 L508,27 L528,47 L548,67 L568,87 L628,37 L648,57 L668,77 L688,97 L45,37" />
+    </circle>
+    <!-- Body segments -->
+    <circle r="7" fill="#00d4e8">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto"
+        path="M45,37 L68,37 L68,57 L88,57 L108,77 L128,97 L168,47 L188,67 L208,87 L228,107 L288,32 L308,52 L328,72 L348,92 L408,42 L428,62 L448,82 L508,27 L528,47 L548,67 L568,87 L628,37 L648,57 L668,77 L688,97 L45,37"
+        begin="-0.3s" />
+    </circle>
+    <circle r="7" fill="#00b8cc">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto"
+        path="M45,37 L68,37 L68,57 L88,57 L108,77 L128,97 L168,47 L188,67 L208,87 L228,107 L288,32 L308,52 L328,72 L348,92 L408,42 L428,62 L448,82 L508,27 L528,47 L548,67 L568,87 L628,37 L648,57 L668,77 L688,97 L45,37"
+        begin="-0.6s" />
+    </circle>
+    <circle r="7" fill="#0099aa">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto"
+        path="M45,37 L68,37 L68,57 L88,57 L108,77 L128,97 L168,47 L188,67 L208,87 L228,107 L288,32 L308,52 L328,72 L348,92 L408,42 L428,62 L448,82 L508,27 L528,47 L548,67 L568,87 L628,37 L648,57 L668,77 L688,97 L45,37"
+        begin="-0.9s" />
+    </circle>
+    <circle r="6" fill="#007788">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto"
+        path="M45,37 L68,37 L68,57 L88,57 L108,77 L128,97 L168,47 L188,67 L208,87 L228,107 L288,32 L308,52 L328,72 L348,92 L408,42 L428,62 L448,82 L508,27 L528,47 L548,67 L568,87 L628,37 L648,57 L668,77 L688,97 L45,37"
+        begin="-1.2s" />
+    </circle>
+  </g>
+  
+  <!-- Labels -->
+  <text x="400" y="175" fill="#8b949e" font-size="14" text-anchor="middle" font-family="Arial, sans-serif">
+    🐍 The snake slithers across your contributions, eating them one by one!
+  </text>
+  <text x="400" y="195" fill="#586069" font-size="12" text-anchor="middle">
+    Animated SVG | SMIL | No external dependencies
+  </text>
+</svg>
+
+<!-- End of working snake animation -->
+
 </div>
 
 ---
