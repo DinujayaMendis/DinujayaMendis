@@ -29,15 +29,16 @@ No external actions needed — the animation runs directly in your browser.
 
 ### 🧑‍💻 About Me
 
-<div style="background: linear-gradient(145deg, #1a1b27, #0f0f1a); border-radius: 1.5rem; padding: 1.5rem; border-left: 5px solid #00F7FF; box-shadow: 0 8px 20px rgba(0,0,0,0.3);">
-  
-- 🎓 **Undergraduate** at **SLIIT** — pursuing excellence in software engineering  
-- 🌱 Currently mastering **OOP with Java** & building **scalable web apps**  
-- 💡 Passionate about **Web Development | UI/UX | Open Source Contribution**  
-- 📫 Reach me: **dinujaya.vimu@gmail.com**  
-- 🌐 Portfolio: [hicelylon.tiiny.site](https://hicelylon.tiiny.site)  
 
-</div>
+<table align="center">
+<tr border="none">
+<td width="50%" align="left">
+
+- 🌱 I'm currently learning **Next.js**
+- 🧑‍🎓 I'm an Undergraduate at **SLIIT**
+- 💬 Ask me about **Web development | OOP**
+- 📫 How to reach me **dinujaya.vimu@gmail.com**
+- 🌐 Portfolio: [hicelylon.tiiny.site](https://hicelylon.tiiny.site)
 
 </td>
 <td width="50%" align="center">
@@ -45,6 +46,8 @@ No external actions needed — the animation runs directly in your browser.
 </td>
 </tr>
 </table>
+
+
 
 ---
 
