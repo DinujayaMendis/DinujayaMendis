@@ -2,9 +2,19 @@
 Advanced Modern README with a Working Snake Animation (SVG SMIL)
 No external actions needed — the animation runs directly in your browser.
 -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00F7FF&center=true&vCenter=true&width=600&lines=👋+Hello%2C+I'm+Dinujaya+Mendis;💻+Passionate+Frontend+Developer;🚀+From+Sri+Lanka;✨+Welcome+to+my+GitHub!"  />
-</div>
+<p align="center">
+
+  <h1 align="center">Hi 👋I'm <a href="https://github.com/MrBlueBird2">Dinujaya Mendis 👋</h1>
+
+</p>
+
+<p align="center">
+
+  <a align="center" href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=F72EE2&size=25&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Front+end+developer;I'm+a+competitive+programmer" /></a>
+
+</p>
+
+---
 
 
 <br/>
