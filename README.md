@@ -8,7 +8,7 @@ No external actions needed — the animation runs directly in your browser.
 
 </p>
 
-<p align="center">    full-stack developer
+<p align="center">    
 
   <a align="center" href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=F72EE2&size=25&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Full+-stack+developer;I'm+a+competitive+programmer" /></a>
 
@@ -17,7 +17,7 @@ No external actions needed — the animation runs directly in your browser.
 ---
 
 
-<br/>
+
 
 <div align="center">
   <div style="background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05)); backdrop-filter: blur(10px); border-radius: 2rem; padding: 1rem 2rem; border: 1px solid rgba(0,247,255,0.3); box-shadow: 0 0 20px rgba(0,247,255,0.2); display: inline-block;">
