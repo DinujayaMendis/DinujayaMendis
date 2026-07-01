@@ -66,8 +66,8 @@ No external actions needed — the animation runs directly in your browser.
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&logoWidth=25)](https://linkedin.com/in/dinujayamendis)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&logoWidth=25)](https://fb.com/dinujayamendis)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=25)](https://instagram.com/_dinujaya_mendis_)
+<!---[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&logoWidth=25)](https://fb.com/dinujayamendis)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&logoWidth=25)](https://instagram.com/_dinujaya_mendis_) -->
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dinujaya.vimu@gmail.com)
 
 </div>
