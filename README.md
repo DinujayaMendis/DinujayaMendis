@@ -263,16 +263,11 @@ No external actions needed — the animation runs directly in your browser.
 
 ### 📈 Real-time Metrics
 
-<div align="center">
-  
-<!-- Dynamic Quote -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it%E2%80%99s%20bad.&author=Cory%20House" width="80%" alt="Dev Quote"/>
 
-</div>
 
 ---
 
-<div align="center">
+
   
 
 
