@@ -14,6 +14,8 @@ No external actions needed — the animation runs directly in your browser.
 
 </p>
 
+<div align="center">
+
 ---
 
 <br/>
