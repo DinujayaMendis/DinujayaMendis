@@ -8,13 +8,15 @@ No external actions needed — the animation runs directly in your browser.
 
 </p>
 
+<div align="center">
 <p align="center">    
 
   <a align="center" href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=F72EE2&size=25&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Full+-stack+developer;I'm+a+competitive+programmer" /></a>
 
 </p>
+</div>
 
-<div align="center">
+
 
 ---
 
