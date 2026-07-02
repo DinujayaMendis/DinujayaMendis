@@ -78,7 +78,7 @@ No external actions needed — the animation runs directly in your browser.
 
 ---
 
-### 🛠️ Languages & Tools (Animated on Hover)
+### 🛠️ Languages & Tools 
 
 <div align="center">
   
