@@ -259,18 +259,12 @@ No external actions needed — the animation runs directly in your browser.
 
 </div>
 
----
 
-### 📈 Real-time Metrics
-
-
-
----
 
 
   
 
-
+<div align="center">
 
 
 <!-- Quote -->
