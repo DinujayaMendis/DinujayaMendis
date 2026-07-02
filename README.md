@@ -132,7 +132,7 @@ No external actions needed — the animation runs directly in your browser.
 
 <!-- Top Languages with Custom Animation -->
 <div align="center">
-  <img width="49%" src="https://github-profile-trophy-liard-delta.vercel.app/?username=dinujayamendis&theme=darkhub&no-frame=true&row=2&column=3&margin-w=15&margin-h=15" alt="Trophies" />
+  
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=dinujayamendis&layout=compact&hide_border=true&title_color=00F7FF&text_color=c9d1d9&bg_color=0D1117&langs_count=8" alt="Top Languages" />
 </div>
 
