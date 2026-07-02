@@ -274,7 +274,7 @@ No external actions needed — the animation runs directly in your browser.
 
 <div align="center">
   
-### ✨ Thank you for stopping bye! ✨
+
 
 
 
@@ -299,9 +299,6 @@ No external actions needed — the animation runs directly in your browser.
 
 
 
-![Footer Animation](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&fontColor=00F7FF)
 
-**💻 Keep coding, keep building, keep inspiring.**  
-*Dinujaya Mendis — Full-Stack Developer from Sri Lanka*
 
-</div>
+
