@@ -129,12 +129,12 @@ No external actions needed — the animation runs directly in your browser.
 <br/>
 
 
-
+<!--
 <!-- Top Languages with Custom Animation -->
-<div align="center">
+<!--<div align="center">
   
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=dinujayamendis&layout=compact&hide_border=true&title_color=00F7FF&text_color=c9d1d9&bg_color=0D1117&langs_count=8" alt="Top Languages" />
-</div>
+</div> -->
 
 ---
 
