@@ -114,7 +114,7 @@ No external actions needed — the animation runs directly in your browser.
 <div align="center">
   
 <!-- GitHub Stats Card with Custom Theme -->
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=dinujayamendis&show_icons=true&count_private=true&hide_border=true&title_color=00F7FF&icon_color=FF00E4&text_color=c9d1d9&bg_color=0D1117&ring_color=00F7FF" alt="GitHub Stats" />
+<!-- <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dinujayamendis&show_icons=true&count_private=true&hide_border=true&title_color=00F7FF&icon_color=FF00E4&text_color=c9d1d9&bg_color=0D1117&ring_color=00F7FF" alt="GitHub Stats" /> -->
 <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=dinujayamendis&hide_border=true&background=0D1117&stroke=00F7FF&ring=FF00E4&fire=FF00E4&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=00F7FF&sideLabels=00F7FF&dates=586069" alt="GitHub Streak" />
 
 </div>
