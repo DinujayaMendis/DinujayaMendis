@@ -4,7 +4,7 @@ No external actions needed — the animation runs directly in your browser.
 -->
 <p align="center">
 
-  <h1 align="center">Hi 👋I'm <a href="https://github.com/MrBlueBird2">Dinujaya Mendis 👋</h1>
+  <h1 align="center">Hi 👋I'm Dinujaya Mendis 👋</h1>
 
 </p>
 
